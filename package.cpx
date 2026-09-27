@@ -1,0 +1,8 @@
+package="package"
+source="https://package.com/package.tar.gz"
+type="tar.gz"
+
+prepare="mv package-main && cd package"
+configure="./configure"
+build="make"
+install="make install"
