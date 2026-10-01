@@ -1,0 +1,9 @@
+package="curl"
+source="https://curl.se/download/curl-8.16.0.tar.gz"
+type="tar.gz"
+deps=""
+
+prepare="cd curl-8.16.0"
+configure="./configure --prefix=/usr"
+build="make"
+install="make install"

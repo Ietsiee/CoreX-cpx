@@ -3,7 +3,7 @@ source="https://package.com/package.tar.gz"
 type="tar.gz"
 deps="curl,git"
 
-prepare="mv package-main && cd package"
+prepare="cd package"
 configure="./configure"
 build="make"
 install="make install"
